@@ -9,7 +9,14 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="Quagsire.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+    <model-viewer src="scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
+      <button class="Hotspot" slot="hotspot-1" data-surface="0 0 5590 5589 5586 0.668 0.316 0.017" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">尾部</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-surface="0 0 8467 8480 8694 0.173 0.502 0.325" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">身體</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-surface="0 0 1563 1725 1718 0.255 0.557 0.189" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">頭部</div>
+      </button>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
